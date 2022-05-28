@@ -9,7 +9,7 @@ pipeline {
     stage(test) {
       steps {
         echo 'Test hello.sh'
-        sh hello.sh
+	ls
       }      
     }
     stage(deploy) {
