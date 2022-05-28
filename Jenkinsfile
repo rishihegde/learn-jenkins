@@ -9,7 +9,8 @@ pipeline {
     stage(test) {
       steps {
         echo 'Test hello.sh'
-	sh "ls -l"
+	sh "chmod +x hello.sh"
+	sh "hello.sh"
       }      
     }
     stage(deploy) {
