@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage(build) {
       steps {
-        echo 'Build hello.sh'i
+        echo 'Build hello.sh'
       }
     }
     stage(test) {
