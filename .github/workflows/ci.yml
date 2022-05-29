@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run checked out code
-        run: .\hello.sh
+        run: sh hello.sh
